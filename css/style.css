@@ -1,0 +1,95 @@
+body{
+
+ font-family: 'PT Sans', sans-serif;
+ text-transform: uppercase;
+
+ background-image: url("img/background.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus
+{
+color: #81b3d2;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h1, h2 {
+  font-size: 21px;
+  line-height: 21px;
+}
+.feature-item p, span {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.main-footer {
+  color: #000000;
+}
+
+.footer-contacts a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+color: #81b3d2;
+text-decoration: none;
+}
+
+.social-background{
+background-color: #81b3d2;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #81b3d2;
+}
