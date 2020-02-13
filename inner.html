@@ -24,8 +24,47 @@
     </nav>
   </header>
   <main>
-    <section></section>
-    <div>
+    <section>
+      <form action="#" method="post">
+          <fieldset>
+        <p> Инфраструктура: </p>
+        <div>
+        <input type="checkbox" name="pool" id="pool" checked>
+        <label for="pool">Бассейн</label>
+      </div>
+        <div>
+        <input type="checkbox" name="parking" id="parking">
+        <label for="parking">Паркинг</label>
+      </div>
+        <div>
+        <input type="checkbox" name="wifi" id="wifi">
+        <label for="wifi">Wi-Fi</label>
+      </div>
+      <p> Тип жилья: </p>
+      <div>
+      <input type="checkbox" name="hotel" id="hotel" checked>
+      <label for="hotel">Гостиница</label>
+    </div>
+      <div>
+      <input type="checkbox" name="motel" id="motel" checked>
+      <label for="motel">Мотель</label>
+    </div>
+      <div>
+      <input type="checkbox" name="apart" id="apart" checked>
+      <label for="apart">Апартаменты</label>
+    </div>
+    <p>Стоимость в сутки(Р)</p>
+    <span> от 0</span>
+      <span>до 3000 </span>
+      <div>
+      <input type="range" name="cost" min="0" max="3000" step="100">
+    </div>
+        <div>
+      <input type="submit" value="Показать">
+    </div>
+</fieldset>
+  </form>
+    </section>
       <h3>Найдено:3</h3>
       <span><img src="img/icon-up-dir.svg" alt="icon-up-dir" width="11" height="10"></span>
       <span><img src="img/icon-down-dir.svg" alt="icon-down-dir" width="11" height="10"></span>
