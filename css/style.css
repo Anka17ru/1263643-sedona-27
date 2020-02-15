@@ -10,11 +10,14 @@ a {
   color: #000000;
 }
 
+
 .background{
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
 }
+
+
 
 .welcome{
 text-align: center;
@@ -125,3 +128,44 @@ text-decoration: none;
 .social-background{
 background-color: #81b3d2;
 }
+
+
+
+
+
+h3{
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.hotel-style{
+color: #766357;
+}
+
+.background-inner{
+  background-image: url("../img/background-inner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.form-hotel{
+color: #ffffff
+}
+.form-hotel h4{
+  font-size: 16px;
+  line-height: 21px;
+}
+.form-hotel label{
+  font-size: 14px;
+line-height: 21px;
+}
+
+.details{
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+ .book{
+   background-color: #766357;
+   color: #ffffff;
+ }
